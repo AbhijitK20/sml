@@ -71,7 +71,50 @@ whether each factor significantly affects the response.
 
 ---
 
-### How to run
-1. Install Jupyter: `pip install notebook` (or use any Jupyter installation).
-2. Keep the notebooks and the two CSV files in the same folder.
-3. Open and run all cells — notebooks 3 and 5 need internet for Penguins/Iris.
+### How to start Jupyter and run the notebooks
+
+**1) Install Python + Jupyter + the required packages (one time)**
+
+Windows (Command Prompt / PowerShell):
+```
+pip install notebook pandas numpy matplotlib seaborn scipy scikit-learn statsmodels openpyxl
+```
+Linux / macOS (Terminal):
+```
+pip install notebook pandas numpy matplotlib seaborn scipy scikit-learn statsmodels openpyxl
+```
+If `pip` is not found, install Python 3.11+ first (python.org, or your distro's package manager).
+
+**2) Start Jupyter**
+
+Open a terminal **in this repository folder** (the folder containing the `.ipynb` files):
+```
+cd path/to/sml
+jupyter notebook
+```
+If the `jupyter` command is not found, use:
+```
+python -m notebook
+```
+Jupyter prints a URL and opens your browser at `http://localhost:8888/tree` with an
+access token. If the browser does not open, copy the printed URL into it.
+
+**3) Open a notebook and run it**
+
+Click a notebook (e.g. `EXP1_EDA.ipynb`), then choose
+**Run → Run All Cells** (or press `Shift+Enter` cell by cell). Outputs and plots
+appear inline and are saved in the notebook.
+
+**4) Stop Jupyter**
+
+Press `Ctrl+C` twice in the terminal, or use File → Shut Down in the browser.
+
+**Notes**
+- Keep the notebooks and both CSV files (`Social_Network_Ads.csv`,
+  `customer_data.csv`) in the same folder — they are already included in this repo.
+- `Exp3 SML.ipynb` (Palmer Penguins) and `Exp6SMLD.ipynb` (Iris) download their
+  datasets at runtime, so those two need internet; the rest run fully offline.
+- If a cell fails with `ModuleNotFoundError`, install the missing package with
+  `pip install <package>` and re-run the cell.
+- Optional: run every notebook headlessly from the terminal —
+  `jupyter nbconvert --to notebook --execute --inplace *.ipynb`
