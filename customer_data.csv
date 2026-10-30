@@ -1,0 +1,82 @@
+CustomerID,Gender,Age,Income,City,Region,Frequency_of_Purchases,Average_Purchase_Amount,Customer_Lifespan_Months,Purchase_Channel,Date_of_Purchase,Churn_Status
+C001,Male,49,72504.0,Chicago,Northeast,10,98.241,3,Online,2022-03-05,Yes
+C002,Female,38,40881.0,New York,West,15,157.64,4,In-store,2023-07-08,Yes
+C003,Male,17,63333.0,New York,Northeast,1,41.252,1,Online,2023-01-30,No
+C004,Male,34,58030.0,Chicago,Midwest,6,67.329,1,In-store,2023-06-01,No
+C005,Male,30,78889.0,Houston,Midwest,3,52.763,1,Online,2022-09-23,No
+C006,Male,52,76470.0,Chicago,Midwest,11,117.012,3,Online,2022-11-30,Yes
+C007,Female,35,60349.0,Houston,Northeast,9,95.544,2,In-store,2023-07-20,No
+C008,Male,38,38401.0,Houston,West,6,70.73,2,Online,2022-05-24,No
+C009,Male,44,73105.0,Los Angeles,Northeast,12,124.887,3,Online,2022-09-02,Yes
+C010,Female,47,65341.0,New York,Northeast,10,108.148,3,In-store,2023-10-03,Yes
+C011,Female,53,27958.0,Los Angeles,Midwest,10,98.449,3,In-store,2023-07-16,Yes
+C012,Female,42,78417.0,Houston,Midwest,8,85.43,2,In-store,2023-04-29,No
+C013,Female,24,45208.0,Chicago,West,10,103.476,3,Online,2023-02-13,Yes
+C014,Female,38,70465.0,Chicago,Midwest,11,111.194,3,Online,2023-05-21,Yes
+C015,Male,44,32500.0,New York,Northeast,9,96.473,3,Online,2023-03-30,No
+C016,Male,37,59214.0,Houston,Midwest,10,108.902,3,Online,2022-01-02,Yes
+C017,Female,26,75726.0,New York,West,13,131.927,4,In-store,2022-04-22,Yes
+C018,Male,39,86730.0,New York,Midwest,11,118.579,3,Online,2022-03-06,Yes
+C019,Male,32,41111.0,Los Angeles,West,14,133.229,4,Online,2023-07-19,Yes
+C020,Male,28,37050.0,Los Angeles,Midwest,6,71.789,2,Online,2022-04-08,No
+C021,Female,22,41743.0,Los Angeles,Northeast,4,54.599,1,Online,2023-06-08,No
+C022,Male,26,78988.0,Chicago,Midwest,7,76.826,2,In-store,2023-12-24,No
+C023,Female,41,105186.0,Los Angeles,Midwest,14,137.697,4,Online,2023-07-15,Yes
+C024,Male,54,27660.0,New York,Midwest,12,125.763,3,Online,2023-07-11,Yes
+C025,Male,27,45239.0,Los Angeles,West,12,127.888,3,In-store,2022-04-04,Yes
+C026,Female,18,33681.0,Los Angeles,Midwest,5,58.264,1,Online,2023-02-19,No
+C027,Female,33,67583.0,New York,Northeast,14,137.171,4,In-store,2022-05-08,Yes
+C028,Female,33,61043.0,Houston,Northeast,10,102.946,3,Online,2022-04-06,Yes
+C029,Female,30,59513.0,Los Angeles,West,12,127.165,3,Online,2023-04-04,Yes
+C030,Female,54,50671.0,Los Angeles,West,13,132.035,4,In-store,2022-11-05,Yes
+C031,Female,22,81993.0,Chicago,Midwest,12,121.402,3,Online,2022-08-16,Yes
+C032,Female,21,55212.0,Los Angeles,Midwest,12,120.921,3,Online,2023-08-05,Yes
+C033,Female,31,98590.0,Houston,West,7,76.114,2,Online,2023-06-30,No
+C034,Male,53,78203.0,Houston,Northeast,12,130.277,3,In-store,2023-06-05,Yes
+C035,Male,28,50039.0,New York,West,7,75.568,2,Online,2022-09-14,No
+C036,Male,23,43471.0,New York,West,5,65.357,1,Online,2022-08-12,No
+C037,Female,25,83760.0,Los Angeles,Northeast,8,85.129,2,In-store,2023-12-02,No
+C038,Female,54,72700.0,New York,West,2,46.456,1,In-store,2023-03-07,No
+C039,Male,43,51799.0,Houston,West,14,133.54,4,Online,2022-10-26,Yes
+C040,Female,36,35491.0,Houston,Northeast,7,78.414,2,Online,2022-05-31,No
+C041,Female,23,72802.0,Los Angeles,Northeast,12,125.185,3,Online,2022-05-26,Yes
+C042,Male,53,52616.0,Houston,Northeast,11,120.311,3,Online,2022-07-15,Yes
+C043,Male,44,66344.0,Chicago,Midwest,12,130.562,3,In-store,2023-05-17,Yes
+C044,Female,39,39315.0,Houston,Midwest,8,88.419,2,Online,2023-03-21,No
+C045,Male,22,46979.0,,West,8,86.904,2,Online,2022-12-29,No
+C046,Male,44,59154.0,Chicago,West,15,152.291,4,Online,2022-12-07,Yes
+C047,Female,44,36638.0,Chicago,Northeast,11,110.97,3,In-store,2023-09-19,Yes
+C048,Female,35,66338.0,Houston,West,8,85.194,2,In-store,2022-12-05,No
+C049,Male,49,58036.0,Los Angeles,West,12,129.524,3,Online,2022-11-24,Yes
+C050,Female,39,29104.0,,Midwest,7,84.461,2,Online,2022-03-17,No
+C051,Female,19,15531.0,Houston,Midwest,10,97.782,3,In-store,2022-09-24,Yes
+C052,Female,39,46730.0,New York,West,6,68.116,1,Online,2022-05-23,No
+C053,Female,45,90860.0,Houston,Northeast,10,105.287,3,In-store,2023-12-29,Yes
+C054,Male,31,51243.0,Houston,Northeast,7,73.408,2,Online,2023-09-26,No
+C055,Female,32,50768.0,Los Angeles,West,5,59.388,1,In-store,2022-11-07,No
+C056,Female,29,107662.0,,Northeast,3,47.877,1,In-store,2022-02-11,No
+C057,Female,29,46209.0,New York,Northeast,9,93.78,2,Online,2023-10-18,No
+C058,Male,18,39995.0,Houston,West,7,81.111,2,In-store,2022-04-12,No
+C059,Female,46,,Los Angeles,Midwest,8,86.207,2,Online,2022-04-14,No
+C060,Male,35,82532.0,Houston,Midwest,6,68.405,1,Online,2022-10-16,No
+C061,Male,24,53080.0,Los Angeles,West,16,193.046,5,In-store,2022-07-28,Yes
+C062,Female,17,61751.0,New York,Midwest,7,78.158,2,Online,2023-09-09,No
+C063,Male,39,47127.0,New York,West,10,96.553,3,Online,2023-06-18,Yes
+C064,Male,30,,Houston,West,10,107.919,3,In-store,2023-11-16,Yes
+C065,Male,31,50889.0,New York,West,9,94.469,2,Online,2022-07-29,No
+C066,Female,35,75435.0,Houston,Northeast,11,112.722,3,Online,2022-09-07,Yes
+C067,Male,54,,Houston,West,12,128.255,3,Online,2022-03-24,Yes
+C068,Female,46,37912.0,Chicago,Northeast,10,101.088,3,Online,2022-01-15,Yes
+C069,Female,23,52920.0,Chicago,Midwest,9,96.442,2,Online,2023-05-04,No
+C070,Male,36,,Chicago,Northeast,8,85.832,2,Online,2023-07-28,No
+C071,Female,36,103264.0,Los Angeles,Northeast,11,117.394,3,Online,2023-12-22,Yes
+C072,Female,26,58635.0,Houston,Midwest,5,61.191,1,Online,2023-05-04,No
+C073,Male,28,73631.0,Los Angeles,West,9,90.344,2,In-store,2022-11-20,No
+C074,Female,29,45104.0,Chicago,West,5,65.224,1,Online,2023-08-21,No
+C075,Female,42,,Los Angeles,Northeast,4,57.984,1,Online,2023-05-13,No
+C076,Male,44,59659.0,Houston,Midwest,14,134.54,4,Online,2023-12-25,Yes
+C077,Female,38,94266.0,Los Angeles,Midwest,5,63.082,XXXX,Online,2023-01-02,No
+C078,Male,30,76887.0,Houston,Midwest,7,80.816,2,Online,2022-11-14,No
+C079,Female,42,56569.0,New York,West,11,13423411.958,3,In-store,2022-12-08,Yes
+C080,Female,26,43931.0,Los Angeles,Northeast,9,91.536,2,In-store,2023-09-18,No
+C021,Female,22,41743.0,Los Angeles,Northeast,4,54.599,1,Online,2023-06-08,No
